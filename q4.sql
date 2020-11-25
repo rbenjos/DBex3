@@ -1,0 +1,10 @@
+
+SELECT DISTINCT COUNT(actorId) as num   
+FROM PlaysIn NATURAL JOIN
+(
+SELECT DISTINCT movieId , COUNT(actorId)
+FROM PlaysIn
+GROUP BY movieId
+HAVING COUNT(actorId) > 5
+) M2
+
