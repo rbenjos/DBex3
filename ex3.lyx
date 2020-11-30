@@ -78,6 +78,502 @@
 \begin_body
 
 \begin_layout Standard
+תרגיל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\end_layout
+
+\begin_layout Standard
+שאלה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+:
+\end_layout
+
+\begin_layout Standard
+א.
+\end_layout
+
+\begin_layout Standard
+ב.
+ 
+\end_layout
+
+\begin_layout Standard
+פוסטגרס מיין לפי 
+\begin_inset Formula $actorId$
+\end_inset
+
+ בשיטת 
+\begin_inset Formula $quicksort$
+\end_inset
+
+.
+ ולאחר מכן הריץ סריקה מלאה על כל איברי הטבלה 
+\begin_inset Formula $playsIn$
+\end_inset
+
+ למציאת הרשומות בהן 
+\begin_inset Formula $character='sherrif'$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+ג.
+ 
+\end_layout
+
+\begin_layout Standard
+ד.
+ השאילתא מיפתה את הערכים לטבלת גיבוב ולאחר מכן יצרה מפת ביטים )כל תא עדי
+ ביטי( , לפי שמות הדמויות, וסרקה לפי האינדקס המתאים לייצוג הביטי של שם הדמות
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $sheriff$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+שאלה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+:
+\end_layout
+
+\begin_layout Standard
+א.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+1
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+נחשב את מספר הבלוקים הדרושים לכל הטבלה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left\lfloor \frac{1000}{150}\right\rfloor =6
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כלומר
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+6
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+שורות בבלוק.
+ לכן אנו צריכים
+\begin_inset Formula 
+\[
+\left\lceil \frac{10000}{6}\right\rceil =1667
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בלוקים בסך הכל.
+ מכיוון שנידרש לעבור על כולם )ללא אינדקס( יתבצעו
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $1667$
+\end_inset
+
+ פעולות 
+\begin_inset Formula $I/O$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+2
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+נחשב את דרגת הפיצול האופטימלית:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+8\cdot d+8(d-1)=1000
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+16d=1008
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+d=63
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+3
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+לחישוב עלות באמצעות אינדקס נחשב תחילה את גובה העץ המקסימלי:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left\lceil log_{\left\lceil \frac{d}{2}\right\rceil }(10,000)\right\rceil =\left\lceil log_{32}(10,000)\right\rceil =3
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+שליפת עלה בודד תדרוש
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+פעולת 
+\begin_inset Formula $IO$
+\end_inset
+
+ נוספת ולכן בסך הכל להרצת השאילתא נידרש ל
+\begin_inset Formula $4$
+\end_inset
+
+ פעולות 
+\begin_inset Formula $IO$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+ב.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+1
+\numeric off
+.
+ בדומה לשאלה הקודמת, גם כאן נסרוק את כל הטבלה ולכן נידרש ל
+\begin_inset Formula $1667$
+\end_inset
+
+ פעולות 
+\begin_inset Formula $IO$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+2
+\numeric off
+.
+ אנו משתמשים באותו אינדקס בדיוק, דרגת הפיצול האופטימלית היא עדיין 
+\begin_inset Formula $63=d$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+3
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+מכיוון ש
+\begin_inset Formula $duration$
+\end_inset
+
+ מתפלג באופן אחיד על 
+\begin_inset Formula $[1,200]$
+\end_inset
+
+ ולכן מספר השורות המתאימות
+\end_layout
+
+\begin_layout Standard
+לתנאי הוא חצי מכל השורות:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{10000}{2}=5000
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ובהתאם לנלמד בשיעור, לאחר שהגענו לעלה הראשון המתאים לתנאי ב-
+\begin_inset Formula $3$
+\end_inset
+
+ פעולות 
+\begin_inset Formula $IO$
+\end_inset
+
+, נסרוק ימינה את שאר העלים בעלות של:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left\lceil \frac{5000}{\left\lceil \frac{d}{2}\right\rceil -1}\right\rceil =\left\lceil \frac{5000}{31}\right\rceil =162
+\]
+
+\end_inset
+
+ ולכן בסך הכל נידרש ל 
+\begin_inset Formula $162+3=165$
+\end_inset
+
+ פעולות 
+\begin_inset Formula $IO$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ג.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+1
+\numeric off
+.
+ בדומה לשאלה הקודמת, גם כאן נסרוק את כל הטבלה ולכן נידרש ל
+\begin_inset Formula $1667$
+\end_inset
+
+ פעולות 
+\begin_inset Formula $IO$
+\end_inset
+
 
 \end_layout
 

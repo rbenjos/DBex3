@@ -499,11 +499,58 @@ d=63
 \end_layout
 
 \begin_layout Standard
+מכיוון ש
+\begin_inset Formula $duration$
+\end_inset
+
+ מתפלג באופן אחיד על 
+\begin_inset Formula $[1,200]$
+\end_inset
+
+ ולכן מספר השורות המתאימות
+\end_layout
+
+\begin_layout Standard
+לתנאי הוא חצי מכל השורות:
+\end_layout
+
+\begin_layout Standard
 \begin_inset Formula 
 \[
-3+
+\frac{10000}{2}=5000
 \]
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ובהתאם לנלמד בשיעור, לאחר שהגענו לעלה הראשון המתאים לתנאי ב-
+\begin_inset Formula $3$
+\end_inset
+
+ פעולות 
+\begin_inset Formula $IO$
+\end_inset
+
+, נסרוק ימינה את שאר העלים בעלות של:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left\lceil \frac{5000}{\left\lceil \frac{d}{2}\right\rceil -1}\right\rceil =\left\lceil \frac{5000}{31}\right\rceil =162
+\]
+
+\end_inset
+
+ ולכן בסך הכל נידרש ל 
+\begin_inset Formula $162+3=165$
+\end_inset
+
+ פעולות 
+\begin_inset Formula $IO$
 \end_inset
 
 
