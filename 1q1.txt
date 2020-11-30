@@ -1,0 +1,12 @@
+                                                    QUERY PLAN                                                     
+-------------------------------------------------------------------------------------------------------------------
+ Unique  (cost=634.39..634.64 rows=50 width=4) (actual time=3.850..3.951 rows=44 loops=1)
+   ->  Sort  (cost=634.39..634.51 rows=50 width=4) (actual time=3.847..3.879 rows=50 loops=1)
+         Sort Key: actorid
+         Sort Method: quicksort  Memory: 27kB
+         ->  Seq Scan on playsin p  (cost=0.00..632.98 rows=50 width=4) (actual time=0.662..3.781 rows=50 loops=1)
+               Filter: (("character")::text = 'Sheriff'::text)
+               Rows Removed by Filter: 32602
+ Planning Time: 0.614 ms
+ Execution Time: 4.084 ms
+(9 rows)

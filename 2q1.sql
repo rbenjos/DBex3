@@ -1,0 +1,4 @@
+EXPLAIN
+SELECT DISTINCT 'exists'
+FROM Movies
+WHERE duration > 100
