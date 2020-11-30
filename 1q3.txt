@@ -1,3 +1,2 @@
-EXPLAIN ANALYZE
 CREATE INDEX char 
 ON PlaysIn(character)
