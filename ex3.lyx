@@ -77,12 +77,12 @@
 
 \begin_body
 
-\begin_layout Standard
+\begin_layout Title
 תרגיל
 \family roman
 \series medium
 \shape up
-\size normal
+\size largest
 \emph off
 \bar no
 \strikeout off
@@ -106,9 +106,129 @@
 \noun default
 \color inherit
 3
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+- מסדי נתונים
 \end_layout
 
-\begin_layout Standard
+\begin_layout Author
+מגישים: 
+\end_layout
+
+\begin_layout Author
+מיכל לוי -
+\family roman
+\series medium
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset space ~
+\end_inset
+
+313573743
+\family roman
+\series medium
+\shape up
+\size large
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+, רועי בן יוסף -
+\family roman
+\series medium
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+307920116
+\end_layout
+
+\begin_layout Section*
 שאלה
 \family roman
 \series medium
@@ -141,13 +261,34 @@
 :
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsection*
 א.
+ 
 \end_layout
 
 \begin_layout Standard
+\begin_inset Graphics
+	filename pasted1.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
 ב.
  
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename pasted4.png
+	scale 50
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -172,13 +313,33 @@
 \end_layout
 
 \begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
 ג.
  
 \end_layout
 
 \begin_layout Standard
+\begin_inset Graphics
+	filename pasted3.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
 ד.
- השאילתא מיפתה את הערכים לטבלת גיבוב ולאחר מכן יצרה מפת ביטים )כל תא עדי
+\end_layout
+
+\begin_layout Standard
+השאילתא מיפתה את הערכים לטבלת גיבוב ולאחר מכן יצרה מפת ביטים )כל תא עדי
  ביטי( , לפי שמות הדמויות, וסרקה לפי האינדקס המתאים לייצוג הביטי של שם הדמות
 \end_layout
 
@@ -196,7 +357,7 @@
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Section*
 שאלה
 \family roman
 \series medium
@@ -229,7 +390,7 @@
 :
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsection*
 א.
 \end_layout
 
@@ -337,6 +498,64 @@
 \end_inset
 
  
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+הערה: 
+\series default
+מכיוון שערכי 
+\begin_inset Formula $duration$
+\end_inset
+
+ מתפלגים באופן אחיד, נידרש לעבור לכל היותר על חצי מהערכים )כלומר 
+\begin_inset Formula $834$
+\end_inset
+
+( בשביל למצוא ערך 
+\begin_inset Formula $duration$
+\end_inset
+
+ גדול מ-
+\numeric on
+100
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+.
+ אך מבדיקה
+\end_layout
+
+\begin_layout Standard
+שערכנו במסד הנתונים, ה-
+\begin_inset Formula $DISTINCT$
+\end_inset
+
+ לא שינה, ולא שיפר את היעילות.
 \end_layout
 
 \begin_layout Standard
@@ -456,7 +675,7 @@ d=63
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Section*
 ב.
 \end_layout
 
@@ -556,7 +775,7 @@ d=63
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsection*
 ג.
 \end_layout
 
@@ -575,6 +794,455 @@ d=63
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+2
+\numeric off
+.
+ כיוון ש-
+\begin_inset Formula $movieId$
+\end_inset
+
+ ו-
+\begin_inset Formula $duration$
+\end_inset
+
+ שניהם בגודל 
+\begin_inset Formula $8$
+\end_inset
+
+ בתים.
+ חישוב 
+\begin_inset Formula $d$
+\end_inset
+
+ יערך באותה צורה וייתן את אותה תוצאה של 
+\begin_inset Formula $d=63$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+3
+\numeric off
+.
+ גובה העץ יהיה זהה, כלומר 
+\begin_inset Formula $3$
+\end_inset
+
+.
+ ולכן נידרש ל-
+\begin_inset Formula $3$
+\end_inset
+
+ פעולות ע
+\begin_inset Quotes erd
+\end_inset
+
+מ להגיע לעלה הרלוונטי, ועוד פעולה אחת ע
+\begin_inset Quotes erd
+\end_inset
+
+מ לשלוף את הבלוק של הרשומה.
+ כלומר בסך הכל 
+\begin_inset Formula $4$
+\end_inset
+
+ פעולות 
+\begin_inset Formula $IO$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מכיוון ש-
+\begin_inset Formula $movieId$
+\end_inset
+
+ הוא מפתח ראשי, קיים רק אחד כזה שערכו 
+\begin_inset Formula $200$
+\end_inset
+
+, ולכן לא נידרש
+\end_layout
+
+\begin_layout Standard
+ליותר מבלוק אחד.
+\end_layout
+
+\begin_layout Subsection*
+ד.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+1
+\numeric off
+.
+ בדומה לשאלה הקודמת, גם כאן נסרוק את כל הטבלה ולכן נידרש ל
+\begin_inset Formula $1667$
+\end_inset
+
+ פעולות 
+\begin_inset Formula $IO$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+2
+\numeric off
+.
+ במקרה זה 
+\begin_inset Formula $genre$
+\end_inset
+
+ הוא בגודל 
+\begin_inset Formula $10$
+\end_inset
+
+ בתים ולכן נחשב מחדש:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+8\cdot d+10(d-1)=1000
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+18d=1010
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left\lfloor d\right\rfloor =56
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+3
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+לחישוב עלות באמצעות אינדקס נחשב תחילה את גובה העץ המקסימלי:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left\lceil log_{\left\lceil \frac{d}{2}\right\rceil }(10,000)\right\rceil =\left\lceil log_{28}(10,000)\right\rceil =3
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מכיוון ש
+\begin_inset Formula $genre$
+\end_inset
+
+ מתפלג באופן אחיד על 
+\begin_inset Formula $4$
+\end_inset
+
+ ערכים.
+ מספר השורות המתאימות
+\end_layout
+
+\begin_layout Standard
+לתנאי הוא רבע מכל השורות:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{10000}{4}=2500
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ובהתאם לנלמד בשיעור, לאחר שהגענו לעלה הראשון המתאים לתנאי ב-
+\begin_inset Formula $3$
+\end_inset
+
+ פעולות 
+\begin_inset Formula $IO$
+\end_inset
+
+, נסרוק ימינה את שאר העלים בעלות של:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left\lceil \frac{2500}{\left\lceil \frac{d}{2}\right\rceil -1}\right\rceil =\left\lceil \frac{2500}{27}\right\rceil =93
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לכן בסך הכל 
+\begin_inset Formula $96$
+\end_inset
+
+ פעולות 
+\begin_inset Formula $IO$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+בנוסף, שליפת
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $2500$
+\end_inset
+
+ ערכי 
+\begin_inset Formula $duration$
+\end_inset
+
+ המתאימים בטבלה המקורית תדרוש מעבר על כל 
+\begin_inset Formula $1667$
+\end_inset
+
+ הבלוקים שבה )שכן הערכים המתאימים לא בהכרח מרוכזים באותם הבלוקים(
+\end_layout
+
+\begin_layout Standard
+לכן בסף הכל נדרש ל 
+\begin_inset Formula $1763$
+\end_inset
+
+ פעולות 
+\begin_inset Formula $IO$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+ה.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+1
+\numeric off
+.
+ בדומה לשאלה הקודמת, גם כאן נסרוק את כל הטבלה ולכן נידרש ל
+\begin_inset Formula $1667$
+\end_inset
+
+ פעולות 
+\begin_inset Formula $IO$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+2
+\numeric off
+.
+ במקרה זה 
+\begin_inset Formula $(genre,duration)$
+\end_inset
+
+ הוא בגודל 
+\begin_inset Formula $18$
+\end_inset
+
+ בתים ולכן נחשב מחדש:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+8\cdot d+18(d-1)=1000
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+26d=1018
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left\lfloor d\right\rfloor =39
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+3
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+לחישוב עלות באמצעות אינדקס נחשב תחילה את גובה העץ המקסימלי:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left\lceil log_{\left\lceil \frac{d}{2}\right\rceil }(10,000)\right\rceil =\left\lceil log_{20}(10,000)\right\rceil =4
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מכיוון ש
+\begin_inset Formula $genre$
+\end_inset
+
+ מתפלג באופן אחיד על 
+\begin_inset Formula $4$
+\end_inset
+
+ ערכים.
+ מספר השורות המתאימות
+\end_layout
+
+\begin_layout Standard
+לתנאי הוא רבע מכל השורות:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{10000}{4}=2500
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ובהתאם לנלמד בשיעור, לאחר שהגענו לעלה הראשון המתאים לתנאי ב-
+\begin_inset Formula $4$
+\end_inset
+
+ פעולות 
+\begin_inset Formula $IO$
+\end_inset
+
+, נסרוק ימינה את שאר העלים בעלות של:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left\lceil \frac{2500}{\left\lceil \frac{d}{2}\right\rceil -1}\right\rceil =\left\lceil \frac{2500}{19}\right\rceil =132
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לכן בסך הכל 
+\begin_inset Formula $136$
+\end_inset
+
+ פעולות 
+\begin_inset Formula $IO$
+\end_inset
+
+.
 \end_layout
 
 \end_body
