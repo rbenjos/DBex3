@@ -13,4 +13,4 @@ FROM T NATURAL JOIN PlaysIn
 WHERE bacon < 5
 )
 
-SELECT DISTINCT actorId FROM T;
+SELECT DISTINCT actorId , name FROM T;
