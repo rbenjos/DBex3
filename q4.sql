@@ -1,5 +1,7 @@
-
-SELECT DISTINCT COUNT(actorId) as num   
+SELECT count(actorId) as num
+FROM
+(
+SELECT DISTINCT actorId    
 FROM PlaysIn NATURAL JOIN
 (
 SELECT DISTINCT movieId , COUNT(actorId)
@@ -7,4 +9,13 @@ FROM PlaysIn
 GROUP BY movieId
 HAVING COUNT(actorId) > 5
 ) M2
-
+EXCEPT
+SELECT DISTINCT actorId 
+FROM PlaysIn NATURAL JOIN
+(
+SELECT DISTINCT movieId , COUNT(actorId)
+FROM PlaysIn
+GROUP BY movieId
+HAVING COUNT(actorId) <= 5
+) M3
+) M4
