@@ -1,7 +1,7 @@
 WITH RECURSIVE T AS
 (
 SELECT actorId, name, 0 as bacon
-FROM Actors NATURAL JOIN playsIn
+FROM Actors
 WHERE name = 'Frank Bacon'
 UNION
 SELECT actorId, name, bacon+1
