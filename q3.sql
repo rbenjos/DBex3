@@ -1,4 +1,3 @@
-
 SELECT DISTINCT actorId, name
 FROM Actors NATURAL JOIN PlaysIn NATURAL JOIN Movies M1
 WHERE rating IS NOT NULL
@@ -11,3 +10,4 @@ GROUP BY actorId
 HAVING AVG(M2.rating) > AVG(M1.rating)
 )
 ORDER BY actorId
+
