@@ -1,4 +1,4 @@
 EXPLAIN ANALYZE
-SELECT DISTINCT P.actorId
+SELECT P.actorId
 FROM PlaysIn P
 WHERE character = 'Sheriff'
